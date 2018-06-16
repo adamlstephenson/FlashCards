@@ -1,0 +1,22 @@
+{
+  "name": "flashcards",
+  "version": "1.0.0",
+  "description": "Flash card app using Node, Express, and PUG",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minnesnowman/FlashCards.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minnesnowman/FlashCards/issues"
+  },
+  "homepage": "https://github.com/minnesnowman/FlashCards#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
