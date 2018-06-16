@@ -1,14 +1,8 @@
-doctype html
-html(lang="en")
-    head
-        title Totally Trout Flash Cards
-    body
-        header
-            h1 Totally Trout Flash Cards
-        section#content
-            h2= prompt
-            if hint
-                p
-                    i Hint: #{hint}
-        footer
-            p Get Your Trout Smarts On!        
+extends layout.pug
+
+block content
+    section#content
+        h2= prompt
+        if hint
+            p
+                i Hint: #{hint}     
